@@ -1,0 +1,65 @@
+{
+    "interact": {
+        "magic": "APF_VER_1",
+        "variables": [
+            {
+                "name": "SGB Speed",
+                "id": 6,
+                "type": "radio",
+                "group": 200,
+                "enabled": true,
+                "persist": true,
+                "writeonly": true,
+                "address": "0x1000041c",
+                "value": 0,
+                "mask": "0xFFFF0000"
+            },
+            {
+                "name": "Original Speed",
+                "id": 7,
+                "type": "radio",
+                "group": 200,
+                "enabled": true,
+                "persist": true,
+                "writeonly": true,
+                "address": "0x1000041c",
+                "defaultval": 1,
+                "value": 1,
+                "mask": "0xFFFF0000"
+            },
+            {
+                "name": "NTSC",
+                "id": 8,
+                "type": "radio",
+                "group": 201,
+                "enabled": true,
+                "persist": true,
+                "writeonly": true,
+                "address": "0x10000004",
+                "defaultval": 1,
+                "value": 0,
+                "mask": "0xFFFF0000"
+            },
+            {
+                "name": "PAL",
+                "id": 9,
+                "type": "radio",
+                "group": 201,
+                "enabled": true,
+                "persist": true,
+                "writeonly": true,
+                "address": "0x10000004",
+                "value": "0xc0",
+                "mask": "0xFFFF0000"
+            },
+            {
+                "name": "Reset System",
+                "id": 1,
+                "type": "action",
+                "enabled": true,
+                "address": "0x10004400",
+                "value": 1
+            }
+        ]
+    }
+}

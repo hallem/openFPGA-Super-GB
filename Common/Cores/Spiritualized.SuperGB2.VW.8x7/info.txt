@@ -1,0 +1,24 @@
+Spiritualized Super GameBoy 2 Vaporwave Edition - 8:7 Aspect Ratio
+
+Everything Super GB Should be supported by this core, including playing real cartridges through the cartridge slot!
+
+To use this core, two files need to be placed into the /assets/sgb/Spiritualized.SuperGB2.VW/ folder:
+
+sgb_boot.bin - the 256 byte boot ROM for the GB CPU
+sgb2vw171_snes.smc - the 256K or 512K BIOS for the SNES
+
+This core was created for the Vaporwave Edition ROM hack
+https://www.romhacking.net/hacks/6449/
+
+To run real cartridges, select "run_cartridge.gb" for the game, which is included in this package.
+
+Up to 4 players are supported using the dock.
+
+Enjoy!
+
+Note:
+The video.json file of this core has been modified from it's original to change the aspect ratio from 4:3 to 8:7. This provides a more full screen experience on the Pocket.
+
+The data.json file of this core has been modified from it's original to change name of the SMC file to distinguish it for the Super GameBoy 2 Vaporwave Edtion ROM hack.
+
+The core.json file was also updated to change the platform_id, shortname, and description to match.

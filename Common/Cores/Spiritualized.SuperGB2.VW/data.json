@@ -1,0 +1,59 @@
+{
+  "data": {
+    "magic": "APF_VER_1",
+    "data_slots": [
+      {
+        "name": "Cartridge",
+        "id": "0x100",
+        "required": true,
+        "parameters": 129,
+        "extensions": [
+          "gb",
+          "gbc",
+          "bin"
+        ],
+        "size_exact": 0,
+        "size_maximum": 8388608,
+        "address": "0x04000000"
+      },
+      {
+        "name": "Save RAM",
+        "id": "0x101",
+        "required": false,
+        "parameters": 36,
+        "nonvolatile": true,
+        "extensions": [
+          "sav"
+        ],
+        "size_exact": null,
+        "size_maximum": 131072,
+        "address": "0x04f00000"
+      },
+      {
+        "name": "SGB BIOS SNES",
+        "id": "0x103",
+        "required": true,
+        "filename": "sgb2vw171_snes.smc",
+        "parameters": "0x2",
+        "extensions": [
+          "smc"
+        ],
+        "size_exact": null,
+        "size_maximum": 522488,
+        "address": "0x00000000"
+      },
+      {
+        "name": "SGB BIOS GB",
+        "id": "0x104",
+        "required": true,
+        "filename": "sgb_boot.bin",
+        "parameters": "0x2",
+        "extensions": [
+          "bin"
+        ],
+        "size_exact": 256,
+        "address": "0x60000f00"
+      }
+    ]
+  }
+}

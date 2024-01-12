@@ -1,0 +1,10 @@
+
+.DS_Store
+_release
+**/sgb_boot.bin
+**/sgb_snes.smc
+**/sgb2_snes.smc
+**/sgb2vw171_snes.smc
+*.psd
+*.xcf
+*.zip
